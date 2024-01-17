@@ -4,15 +4,14 @@ const text = document.getElementById('text');
 const body = document.querySelector('body');
 const btn = document.getElementById('generate');
 
-btn.addEventListener('click',(e)=>{
-    e.preventDefault()
-    genareteNumber()
-})
+
 
 function genareteNumber (){
-    let num = Math.floor(Math.random()* 11)
+    let num = Math.floor(Math.random()* 16)
     return num
 }
+
+
 
 const hiddenNumber = genareteNumber()
 
